@@ -123,7 +123,7 @@ nyc-taxi-etl/
 ## 1️⃣ Clone the repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/My_First_DAG.git
+git clone https://github.com/my_USERNAME/My_First_DAG.git
 cd My_First_DAG
 ```
 
@@ -194,7 +194,7 @@ sudo usermod -aG docker ubuntu
 ## 3️⃣ Clone and run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/My_First_DAG.git
+git clone https://github.com/my_USERNAME/My_First_DAG.git
 cd My_First_DAG
 docker compose up -d --build
 ```
