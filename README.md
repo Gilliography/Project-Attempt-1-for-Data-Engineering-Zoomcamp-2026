@@ -1,5 +1,5 @@
 # My_First_DAG
-In my Project named My_First_Dag, i decided to proceed with the New York Taxi pipeline taking advantage of data available on https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-01.parquet 
+In my Project named My_First_Dag inside a repository named "Project-Attempt-1-for-Data-Engineering-Zoomcamp-2026", I decided to proceed with the New York Taxi pipeline taking advantage of data available on https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2026-01.parquet 
 The platforms and Technologies I used in the project include:
 -Airflow
 -Kafka
@@ -204,8 +204,8 @@ docker compose up -d --build
 ## 4️⃣ Configure AWS credentials
 
 ```bash
-export AWS_ACCESS_KEY_ID=your_key
-export AWS_SECRET_ACCESS_KEY=your_secret
+export AWS_ACCESS_KEY_ID=my_key
+export AWS_SECRET_ACCESS_KEY=my_secret
 export AWS_DEFAULT_REGION=us-east-1
 export S3_BUCKET=your-bucket-name
 ```
@@ -279,10 +279,12 @@ SELECT trip_distance, fare_amount FROM trips LIMIT 1000;
 * Use Terraform for infrastructure
 
 ---
+Diagrams and Screenshots
+
 
 # 👨‍💻 Author
 
-**Gilliography**
+**Gilbert Kiprotich**
 
 ---
 
@@ -291,7 +293,3 @@ SELECT trip_distance, fare_amount FROM trips LIMIT 1000;
 Give it a ⭐ on GitHub!
 
 ---
-
-If you want, I can upgrade this README to:
-
-👉 **“FAANG-level portfolio README (with diagrams, badges, metrics)”**
