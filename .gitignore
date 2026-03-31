@@ -1,0 +1,5 @@
+data/yellow_tripdata.parquet
+data/transformed.csv
+data/*.parquet
+data/*.csv
+logs/
