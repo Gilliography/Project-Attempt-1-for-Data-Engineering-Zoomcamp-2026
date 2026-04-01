@@ -207,7 +207,7 @@ docker compose up -d --build
 export AWS_ACCESS_KEY_ID=my_key
 export AWS_SECRET_ACCESS_KEY=my_secret
 export AWS_DEFAULT_REGION=us-east-1
-export S3_BUCKET=your-bucket-name
+export S3_BUCKET=my-bucket-name
 ```
 
 ---
@@ -272,15 +272,9 @@ SELECT trip_distance, fare_amount FROM trips LIMIT 1000;
 
 # 🚀 Future Improvements
 
-* Add dbt transformations
-* Use BigQuery / Redshift
-* Add CI/CD pipeline
-* Implement data quality checks
-* Use Terraform for infrastructure
-
 ---
 Diagrams and Screenshots
-
+Diagrams anc screenshots can be provided on request at any time. They could not be pasted into this README file
 
 # 👨‍💻 Author
 
